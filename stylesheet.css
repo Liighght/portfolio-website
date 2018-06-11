@@ -11,15 +11,23 @@ body {
     border-radius: 5px;
 }
 
+.content_box a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+.content_box a:hover {
+    color: #b18e6b;
+}
+
 #om_mig {
     display: flex;
     flex-wrap: wrap;
 
-    padding-top:120px;
+    padding-top: 180px;
     margin: 10px;
     border-radius: 5px;
 }
-
 
 .herobanner {
     overflow: hidden;
