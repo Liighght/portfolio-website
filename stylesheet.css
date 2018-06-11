@@ -14,8 +14,9 @@ body {
 #om_mig {
     display: flex;
     flex-wrap: wrap;
-    background-color: #e3d1ba;
-    margin: 20px;
+
+    padding-top:120px;
+    margin: 10px;
     border-radius: 5px;
 }
 
@@ -92,6 +93,22 @@ a {
 
 /******* LOGO  *******/
 
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.logo {
+
+    background-image: url(assets/spritesheets/logo_spritesheet.svg);
+    background-size: 500% 100%;
+    width: 300px;
+    height: 300px;
+}
+
 #logo_container {
     position: fixed;
     top: 70px;
@@ -117,11 +134,11 @@ a {
 
 @keyframes logo_animate_kf {
     0% {
-        background-position: -0% 0%;
+        background-position: 0% 0%;
     }
 
     100% {
-        background-position: -500% 100%;
+        background-position: 500% 100%;
     }
 }
 
