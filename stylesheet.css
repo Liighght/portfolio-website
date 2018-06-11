@@ -1,13 +1,38 @@
-/** LOGO ANIMATION **/
-
-#logo_container {
-    position: absolute;
-
-
-    left: 12vw;
-    top: 12vw;
+body {
+    background-color: #d0b393;
+    margin: 0;
 }
 
+.content_box {
+    background-color: #e3d1ba;
+    margin: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #382518;
+    margin: 8px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #382518;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #382518;
+    margin: 8px;
+}
+
+a {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/******* LOGO ANIMATION *******/
+
+#logo_container {}
 
 
 #logo_sprite {
@@ -35,3 +60,5 @@
         background-position: -500% 100%;
     }
 }
+
+/******* LOGO ANIMATION SLUT *******/
