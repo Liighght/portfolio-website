@@ -1,36 +1,102 @@
+/************ GENERALLE SETTINGS **********/
+
 body {
-    background-color: #d0b393;
+    background-color: #b18e6b;
     margin: 0;
 }
 
 .content_box {
     background-color: #e3d1ba;
     margin: 20px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 }
 
+#om_mig {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e3d1ba;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.profil_img img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 100vw;
+    margin: 10px;
+}
+
+.herobanner {
+    overflow: hidden;
+}
+
+/************ GENERALLE SETTINGS SLUT **********/
+
+/*********** NAV ************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5d412d;
+    position: fixed;
+    top: 0;
+    left: 67px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b18e6b;
+}
+
+.active {
+    background-color: #865f40;
+}
+
+/************* FONTS ************/
+
 p {
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #382518;
-    margin: 8px;
+    margin: 20px;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    color: #382518;
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
     color: #382518;
     margin: 8px;
 }
 
-a {
-    font-family: 'Nunito Sans', sans-serif;
+h2 {
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+    color: #382518;
+    margin: 12px;
 }
 
-/******* LOGO ANIMATION *******/
+a {
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/************* FONTS SLUT ************/
+
+/******* LOGO  *******/
 
 #logo_container {}
 
@@ -39,8 +105,8 @@ a {
     background-image: url(assets/spritesheets/logo_spritesheet.svg);
     background-size: 500% 100%;
 
-    width: 20vw;
-    height: 20vw;
+    width: 67px;
+    height: 67px;
 }
 
 .logo_animate {
@@ -61,4 +127,4 @@ a {
     }
 }
 
-/******* LOGO ANIMATION SLUT *******/
+/******* LOGO SLUT *******/
